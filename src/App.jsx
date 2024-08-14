@@ -99,7 +99,7 @@ function App() {
     if(guesedLetters.length === uniqueLetters.length) {
       setScore((actualScore) => actualScore + 100)
 
-      startGame()
+      startGame
     }
 
   },[guesedLetters, letters, startGame])
